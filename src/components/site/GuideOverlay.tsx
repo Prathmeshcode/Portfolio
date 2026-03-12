@@ -42,28 +42,28 @@ export function GuideOverlay() {
   const pathname = usePathname();
   const copy = copyByRoute[pathname] ?? copyByRoute["/"];
 
-  return (
-    <div className="pointer-events-none fixed bottom-5 left-0 right-0 z-20">
-      <div className="mx-auto max-w-6xl px-5 sm:px-10">
-        <div className="pointer-events-auto inline-flex max-w-[46rem] flex-col gap-2 border border-white/10 bg-black/45 p-4 backdrop-blur-xl sm:flex-row sm:items-start sm:justify-between sm:gap-6">
-          <div>
-            <div className="text-xs font-semibold uppercase tracking-[0.22em] text-white/55">
-              {copy.title}
-            </div>
-            <div className="mt-2 text-sm leading-6 text-white/80">{copy.body}</div>
-          </div>
+  // return (
+  //   <div className="pointer-events-none fixed bottom-5 left-0 right-0 z-20">
+  //     <div className="mx-auto max-w-6xl px-5 sm:px-10">
+  //       <div className="pointer-events-auto inline-flex max-w-[46rem] flex-col gap-2 border border-white/10 bg-black/45 p-4 backdrop-blur-xl sm:flex-row sm:items-start sm:justify-between sm:gap-6">
+  //         <div>
+  //           <div className="text-xs font-semibold uppercase tracking-[0.22em] text-white/55">
+  //             {copy.title}
+  //           </div>
+  //           <div className="mt-2 text-sm leading-6 text-white/80">{copy.body}</div>
+  //         </div>
 
-          <a
-            className="inline-flex items-center justify-center rounded-full bg-white px-4 py-2 text-sm font-semibold text-black"
-            href={profile.links.techFirm}
-            target="_blank"
-            rel="noreferrer"
-          >
-            KalaGoon
-          </a>
-        </div>
-      </div>
-    </div>
-  );
+  //         <a
+  //           className="inline-flex items-center justify-center rounded-full bg-white px-4 py-2 text-sm font-semibold text-black"
+  //           href={profile.links.techFirm}
+  //           target="_blank"
+  //           rel="noreferrer"
+  //         >
+  //           KalaGoon
+  //         </a>
+  //       </div>
+  //     </div>
+  //   </div>
+  // );
 }
 
