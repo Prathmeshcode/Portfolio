@@ -39,8 +39,8 @@ const copyByRoute: Record<string, { title: string; body: string }> = {
 };
 
 export function GuideOverlay() {
-  const pathname = usePathname();
-  const copy = copyByRoute[pathname] ?? copyByRoute["/"];
+  // const pathname = usePathname();
+  // const copy = copyByRoute[pathname] ?? copyByRoute["/"];
 
   // return (
   //   <div className="pointer-events-none fixed bottom-5 left-0 right-0 z-20">
