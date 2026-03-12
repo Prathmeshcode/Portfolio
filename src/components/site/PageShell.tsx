@@ -4,7 +4,7 @@ import type { ReactNode } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { usePathname } from "next/navigation";
 import { Journey } from "@/components/journey/Journey";
-import { GuideOverlay } from "@/components/site/GuideOverlay";
+// import { GuideOverlay } from "@/components/site/GuideOverlay";
 import { SiteHeader } from "@/components/site/SiteHeader";
 
 export function PageShell({ children }: { children: ReactNode }) {
@@ -33,7 +33,7 @@ export function PageShell({ children }: { children: ReactNode }) {
           </motion.div>
         </AnimatePresence>
       </main>
-      <GuideOverlay />
+      {/* <GuideOverlay /> */}
     </div>
   );
 }
