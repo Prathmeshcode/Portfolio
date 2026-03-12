@@ -1,0 +1,8 @@
+Prathmesh Dhote — Resume (Placeholder)
+
+Replace this file with your real resume PDF at:
+public/resume.pdf
+
+Then update src/lib/portfolio.ts:
+profile.links.resume = "/resume.pdf"
+
