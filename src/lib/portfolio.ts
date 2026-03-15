@@ -66,7 +66,7 @@ export const profile = {
     github: "https://github.com/Prathmeshcode",
     youtube: "https://www.youtube.com/@Passion_Drift",
     portfolio: "https://your-domain.com",
-    resume: "/resume.txt",
+    resume: "https://me-ten-inky.vercel.app/",
     techFirm: "https://kalagoon.vercel.app/",
     whatsapp: "https://wa.me/919529169879",
   } satisfies Record<string, string>,
